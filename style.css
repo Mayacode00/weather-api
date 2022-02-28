@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 100;
+  overflow-x: hidden;
+}
+.wrapper {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  cursor: default;
+}
+.blur-background {
+  backdrop-filter: blur(15px);
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.096);
+}
+.container-one {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.time {
+  font-size: 50px;
+}
+.am-pm {
+  font-size: 18px;
+}
+.place {
+  font-size: 25px;
+  font-weight: 300;
+}
+.search {
+  padding: 10px;
+  min-width: 300px;
+  background: rgba(255, 255, 255, 0.13);
+  font-family: inherit;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.share-icon {
+  height: 20px;
+  margin-left: 10px;
+}
+.container-two {
+  margin: 0 70px;
+}
+.note {
+  display: flex;
+}
+.cloud1 {
+  height: 30px;
+  padding-right: 5px;
+}
+.arrow {
+  height: 20px;
+}
+.container-three {
+  margin: 10px 70px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  width: 200px;
+  padding: 15px;
+  justify-content: space-between;
+}
+.weather-item {
+  display: flex;
+  justify-content: space-between;
+}
+#future-forecast {
+  display: flex;
+  margin: 10px 50px 0 50px;
+  background: rgba(0, 0, 0, 0.176);
+  padding: 12px;
+}
+.current-day {
+  display: flex;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  padding: 30px;
+}
+.day {
+  width: 150px;
+}
+.days {
+  background: #141313;
+  padding: 5px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 13px;
+}
+.w-icon {
+  height: 100px;
+}
+.sunday,
+.day-temp,
+.night-temp {
+  margin-top: 10px;
+}
+.weather-forecast {
+  display: flex;
+  font-size: 16px;
+  justify-content: space-between;
+}
+.weather-forecast-item {
+  border: 1px solid #ffffff;
+  text-align: center;
+  margin: 20px 10px 20px 10px;
+  width: 120px;
+  height: 200px;
+  border-radius: 10px;
+  padding: 10px;
+}
+@media screen and (max-width: 1300px) {
+  .container-one {
+    padding: 10px;
+  }
+  .time {
+    font-size: 30px;
+  }
+  .am-pm {
+    font-size: 18px;
+  }
+  .place {
+    font-size: 20px;
+  }
+  .share-icon,
+  .plus-icon {
+    height: 15px;
+  }
+}
