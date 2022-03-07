@@ -37,18 +37,28 @@ body {
   font-size: 25px;
   font-weight: 300;
 }
+.share{
+  display: flex;
+}
 .search {
   padding: 10px;
   min-width: 300px;
   background: rgba(255, 255, 255, 0.13);
   font-family: inherit;
+  height: 20px;
   border: none;
   border-radius: 5px;
   color: #ffffff;
 }
 .share-icon {
   height: 20px;
+  padding: 10px;
   margin-left: 10px;
+}
+.share-icon:hover{
+  background: rgba(107, 107, 107, 0.726);
+  transition: .6s ease-in;
+  border-radius: 20px;
 }
 .container-two {
   margin: 0 70px;
@@ -80,6 +90,7 @@ body {
   margin: 10px 50px 0 50px;
   background: rgba(0, 0, 0, 0.176);
   padding: 12px;
+  overflow-x: scroll;
 }
 .current-day {
   display: flex;
